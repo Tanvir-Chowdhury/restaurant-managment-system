@@ -1,0 +1,4 @@
+Beef_Burger 224 Onion,Olive_oil,egg,lettuce_leaves,tomato,beef,ketchup,cheese 355 30 5
+Whopperrito 344 flame-grilled_beef,cheese,tomatoes,lettuce,mayo,ketchup,pickles,white_onions 479 30 5
+Beef_Sizzling 125 Beef,pepper,potato_starch,garlic_clove,onion,soy_sauce,vegetable_oil 522 30 5
+Beef_tehari 432 Beef,cumin,cinnamon,pepper,mustered_oil,onion,ginger_and_garlic_paste,yogurt,basmati_rice 120 30 5
