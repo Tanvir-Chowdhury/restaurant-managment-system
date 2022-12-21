@@ -5,31 +5,57 @@ The project has 3 main parts. These are “Admin Window”, “Customer Window�
 
 Methodology and uses: We used twenty-one functions for this restaurant management system. Which are:
 1. Admin Window
-    int adminLogin();
-    void adminpanel();
-    void admin_header(); [For printing the header in the admin window]
-    void add_food();
-    void display_food();
-    void delete_food();
-    void edit_food();
-    void display_orders_admin(); [For displaying the list of orders in the admin window]
-    void add_chef();
-    void display_chef(); [For displaying chef records in the admin window]
-    void remove_chef();
-    void edit_chef();
+    
+    a. int adminLogin();
+    
+    b. void adminpanel();
+    
+    c. void admin_header(); [For printing the header in the admin window]
+    
+    d. void add_food();
+    
+    e. void display_food();
+    
+    f. void delete_food();
+    
+    g. void edit_food();
+    
+    h. void display_orders_admin(); [For displaying the list of orders in the admin window]
+    
+    i. void add_chef();
+    
+    j. void display_chef(); [For displaying chef records in the admin window]
+    
+    k. void remove_chef();
+    
+    l. void edit_chef();
+    
 2. Customer Window
-    void customer_panel();
-    void customer_header(); [For printing the header in the customer window]
-    void display_food(); [The same function is used in the admin window]
-    void search_food();
-    void order_food();
-    int cancel_serve_order(); [For canceling the order]
+    
+    a. void customer_panel();
+    
+    b. void customer_header(); [For printing the header in the customer window]
+    
+    c. void display_food(); [The same function is used in the admin window]
+    
+    d. void search_food();
+    
+    e. void order_food();
+    
+    f. int cancel_serve_order(); [For canceling the order]
+    
 3. Chef Window
-    int chefLogin();
-    void chef_panel();
-    void chef_header(); [For printing the header in the chef window]
-    void display_order_chef(); [For displaying the list of orders in the chef window]
-    int cancel_serve_order(); [For serving the order. The same function is used in the customer window]
+    
+    a. int chefLogin();
+    
+    b. void chef_panel();
+    
+    c. void chef_header(); [For printing the header in the chef window]
+    
+    d. void display_order_chef(); [For displaying the list of orders in the chef window]
+    
+    e. int cancel_serve_order(); [For serving the order. The same function is used in the customer window]
+    
     
 In the main() function a switch case has been used to create a menu. Users can choose options between 0 to 3. If the option is outside of 0 to 3, the program won’t be continued by printing an invalid choice message and redirected to the main() function.
 By pressing 0, the program will be terminated. By pressing 1 the window will ask for the admin login info. By entering the username “Admin” and the password “admin223”, the admin can enter the admin window where they will get another 10 options:
